@@ -1,5 +1,4 @@
-rem 关闭提示命令输出
-@echo off
+@echo off  rem 关闭提示命令输出
 rem 设置tomcat1的CATALINA_HOME
 set CATALINA_HOME="E:\apache-tomcat-6.0.10"
 call %CATALINA_HOME%\bin\startup.bat
